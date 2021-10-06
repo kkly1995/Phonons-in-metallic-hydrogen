@@ -1,0 +1,1 @@
+This directory contains the conventional cells for both densities used in these calculations, in the extended xyz format. Note that the units are in Bohr, rather than Angstrom, so you should be careful if reading in the files with something like ASE. This is the [Cs-IV structure](https://doi.org/10.17188/1204432).

@@ -1,0 +1,22 @@
+<qmcsystem>
+  <wavefunction name="psi0" target="e">
+         <jastrow type="kSpace" name="Jk" source="ion0">
+            <correlation kc="1.4" type="Two-Body" symmetry="crystal">
+               <coefficients id="jk2" type="Array"> -9.387933692 -4.288018353 -0.3443837611 0.5924383057 0.8399385043 0.7130115302 0.6487699052 0.5583030693 0.3856893528 0.3649556263</coefficients>
+            </correlation>
+         </jastrow>
+         <jastrow type="One-Body" name="J1s" function="bspline" source="ion0" print="yes">
+            <correlation elementType="H" size="8" rcut="1.0" cusp="1.0">
+               <coefficients id="eHs" type="Array"> -0.125545561 -0.03660749041 0.007553564801 0.01537436652 0.007185683698 0.001710016663 0.001633794215 0.001245077818</coefficients>
+            </correlation>
+         </jastrow>
+         <jastrow type="Two-Body" name="J2" function="bspline" print="yes">
+            <correlation speciesA="u" speciesB="u" size="8">
+               <coefficients id="uu" type="Array"> 0.4222802572 0.3038614275 0.209820307 0.1362914883 0.08299695612 0.04514486478 0.02107253478 0.008003173464</coefficients>
+            </correlation>
+            <correlation speciesA="u" speciesB="d" size="8">
+               <coefficients id="ud" type="Array"> 0.6409402609 0.4169497177 0.2571517143 0.154757069 0.09055279011 0.0495165627 0.0228169043 0.00867538401</coefficients>
+            </correlation>
+         </jastrow>
+      </wavefunction>
+</qmcsystem>
