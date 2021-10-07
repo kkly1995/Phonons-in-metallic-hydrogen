@@ -1,0 +1,1 @@
+In this directory are the pseudopotentials used for the Quantum ESPRESSO calculations. They were generated using [Opium](http://opium.sourceforge.net), and the headers contain a copy of their respective inputs, as well as how exactly the program was run. The difference between the two is that `H.qmc.soft.upf` uses PBE GGA and `H.qmc.lda.upf` uses LDA PZ.
