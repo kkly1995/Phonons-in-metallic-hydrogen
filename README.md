@@ -1,2 +1,3 @@
 # Phonons in metallic hydrogen
  
+This contains the inputs necessary to reproduce the RQMC band structures in our paper. One starts by calculating the forces on the atoms when they are all randomly displaced (`force_calculations`). The resultant forces and displacements are then assembled into a linear regression, subject to the crystal symmetries, to calculate force constants and subsequent phonon properties (`phonon_calculations`). The pseudopotentials used are provided in `pseudo`, and the primitive cells for the final structures used are provided in `structure`; for the supercells, see input files for the calculations.
